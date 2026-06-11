@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    }
+    
+    body{
+    
+    background-image:
+    linear-gradient(
+    rgba(255,255,255,0.80),
+    rgba(255,255,255,0.80)
+    ),
+    url("fundo.jpg");
+    
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    }
+    
+    header{
+    
+    text-align:center;
+    padding:80px 20px;
+    
+    background:rgba(255,255,255,0.70);
+    
+    backdrop-filter:blur(8px);
+    }
+    
+    header h1{
+    
+    font-size:4rem;
+    color:#1f6b2d;
+    }
+    
+    header p{
+    
+    font-size:1.3rem;
+    margin-top:10px;
+    }
+    
+    nav{
+    
+    width:90%;
+    max-width:1200px;
+    
+    margin:20px auto;
+    
+    background:#0b5e1f;
+    
+    padding:18px;
+    
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    
+    border-radius:15px;
+    }
+    
+    nav a{
+    
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    }
+    
+    .container{
+    
+    width:90%;
+    max-width:1200px;
+    
+    margin:auto;
+    }
+    
+    .card{
+    
+    margin-top:40px;
+    
+    background:rgba(255,255,255,.95);
+    
+    padding:40px;
+    
+    border-radius:20px;
+    
+    display:flex;
+    
+    gap:40px;
+    
+    align-items:center;
+    
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    }
+    
+    .card img{
+    
+    width:45%;
+    border-radius:15px;
+    }
+    
+    .card-texto{
+    
+    flex:1;
+    }
+    
+    .card-texto h2{
+    
+    color:#1f6b2d;
+    
+    margin-bottom:20px;
+    }
+    
+    .card-texto p{
+    
+    line-height:1.8;
+    }
+    
+    .botao{
+    
+    margin-top:20px;
+    
+    padding:14px 28px;
+    
+    border:none;
+    
+    border-radius:10px;
+    
+    background:#2d8f2d;
+    
+    color:white;
+    
+    cursor:pointer;
+    }
+    
+    .tecnologias{
+    
+    margin-top:40px;
+    
+    background:white;
+    
+    padding:40px;
+    
+    border-radius:20px;
+    }
+    
+    .tecnologias h2{
+    
+    color:#1f6b2d;
+    
+    margin-bottom:30px;
+    }
+    
+    .grid{
+    
+    display:grid;
+    
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+    
+    gap:25px;
+    }
+    
+    .item{
+    
+    background:#f4f8ef;
+    
+    padding:30px;
+    
+    border-radius:15px;
+    
+    text-align:center;
+    }
+    
+    .item h3{
+    
+    color:#2d8f2d;
+    
+    margin-bottom:10px;
+    }
+    
+    .explorar{
+    
+    margin-top:40px;
+    
+    background:white;
+    
+    padding:40px;
+    
+    border-radius:20px;
+    
+    text-align:center;
+    }
+    
+    .explorar h2{
+    
+    color:#1f6b2d;
+    }
+    
+    .botoes{
+    
+    margin-top:25px;
+    
+    display:flex;
+    
+    justify-content:center;
+    
+    flex-wrap:wrap;
+    
+    gap:20px;
+    }
+    
+    .botoes button{
+    
+    padding:18px 30px;
+    
+    border:none;
+    
+    border-radius:12px;
+    
+    font-size:1rem;
+    
+    color:white;
+    
+    cursor:pointer;
+    }
+    
+    .verde{
+    
+    background:#2d8f2d;
+    }
+    
+    .azul{
+    
+    background:#1e73be;
+    }
+    
+    .sust{
+    
+    margin-top:40px;
+    
+    background:white;
+    
+    padding:40px;
+    
+    border-radius:20px;
+    
+    display:flex;
+    
+    gap:40px;
+    
+    align-items:center;
+    }
+    
+    .sust h2{
+    
+    color:#1f6b2d;
+    
+    margin-bottom:15px;
+    }
+    
+    .sust img{
+    
+    width:40%;
+    
+    border-radius:15px;
+    }
+    
+    footer{
+    
+    margin-top:50px;
+    
+    background:#0b5e1f;
+    
+    color:white;
+    
+    text-align:center;
+    
+    padding:25px;
+    }
+    
+    @media(max-width:900px){
+    
+    .card,
+    .sust{
+    
+    flex-direction:column;
+    }
+    
+    .card img,
+    .sust img{
+    
+    width:100%;
+    }
+    
+    nav{
+    
+    flex-wrap:wrap;
+    
+    gap:15px;
+    }
+    
+    header h1{
+    
+    font-size:2.5rem;
+    }
+    }
